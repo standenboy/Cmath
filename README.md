@@ -7,7 +7,9 @@ Each program is prephrased with `cmath-`
 
 EG: `cmath-add`
 
-There is also sets of programs that use floating point values, these are prephrased with `cmath-add`
+There is also sets of programs that use floating point values, these are prephrased with `cmath=f`
+
+EG: `cmath-fsub`
 
 There curently is the following programs:
 `cmath-add`
