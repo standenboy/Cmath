@@ -1,4 +1,5 @@
 all:  
+	mkdir ./build
 	for f in $$(ls ./src | grep .c); do echo $$f; cc ./src/$$f -o ./build/cmath-$$(echo $$f | rev | cut -c 3- | rev) -lm; done
 
 install:
